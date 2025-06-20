@@ -40,10 +40,10 @@ const Navbar = () => {
  
             <div className="flex items-center">
                 <img 
-                    src="public/images/Untitled design (3).png"  
+                    src="public/images/Pasted image (2).png"  
                     alt="GigaSphere Logo"
                   
-                    className="h-20 w-auto object-contain rounded-full shadow-md border border-gray-300" 
+                    className="h-17 w-auto object-contain rounded-full shadow-md border border-gray-300" 
                 />
             </div>
 
