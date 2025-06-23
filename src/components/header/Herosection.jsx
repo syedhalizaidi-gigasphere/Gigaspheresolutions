@@ -1,6 +1,7 @@
  
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const HeroSection = () => {
   return (
@@ -22,12 +23,12 @@ const HeroSection = () => {
           <p className="text-base text-gray-200"> 
             Get up and running quickly with our expert consulting services.
           </p>
-          <a
-            href="/contact"
+          <Link
+            to="/contact"
             className="inline-block bg-white text-black px-5 py-2 rounded-lg font-medium transition duration-300 hover:bg-gray-200" // Slightly smaller padding
           >
             Contact Us
-          </a>
+          </Link>
         </div>
       </div>
     </div>
