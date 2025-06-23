@@ -16,7 +16,7 @@ const HeroSection = () => {
 
       <div className="relative z-10 max-w-4xl mx-auto w-full">
         <div className="md:w-1/2 space-y-4 text-left">  
-          <h3 className="text-xs font-semibold text-white">GigaSphere Solutions</h3>  
+          <h3 className="text-base text-gray-200">GigaSphere Solutions</h3>  
           <h1 className="text-2xl md:text-2xl font-bold text-white">  
             Accelerate digital transformation with scalable, secure, and intelligent solutions.
           </h1>
