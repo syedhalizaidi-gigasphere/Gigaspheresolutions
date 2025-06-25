@@ -3,6 +3,7 @@
  
 import React from "react";
 import { FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import {Link} from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -13,7 +14,7 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-bold mb-4">COMPANY</h3>
             <ul className="space-y-2">
-              <li><a href="/contact" className="hover:text-gray-600 transition">Contact  </a></li>
+              <li><Link to="/contact-us" className="hover:text-gray-600 transition">Contact  </Link></li>
             </ul>
           </div>
 
@@ -30,7 +31,7 @@ const Footer = () => {
   <ul className="space-y-2">
     <li>
       <a href="mailto:info@gigaspher.com" className="hover:text-gray-600 transition">
-        info@GigaSphere.com
+        info@gigasphere.com
       </a>
     </li>
   </ul>

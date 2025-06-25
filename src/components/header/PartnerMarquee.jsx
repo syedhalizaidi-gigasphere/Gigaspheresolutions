@@ -2,12 +2,12 @@ import React, { useEffect, useRef } from 'react';
 
 const PartnerSlider = () => {
   const partners = [
-    { id: 1, logo: '/images/aws_logo_smile_1200x630.png', name: 'AWS' },
-    { id: 2, logo: '/images/microsoft-azure-logo.png', name: 'Azure' },
-    { id: 3, logo: '/images/social-icon-google-cloud-1200-630.png', name: 'Google Cloud' },
-    { id: 4, logo: '/images/shopify-bag.png', name: 'Shopify' },
-    { id: 5, logo: '/images/salesforce-logo-png_seeklogo-256541.png', name: 'Salesforce' },
-    { id: 6, logo: '/images/Screenshot from 2025-06-16 12-28-47.png', name: 'Partner' },
+    { id: 1, logo: './images/aws_logo_smile_1200x630.png', name: 'AWS' },
+    { id: 2, logo: './images/microsoft-azure-logo.png', name: 'Azure' },
+    { id: 3, logo: './images/social-icon-google-cloud-1200-630.png', name: 'Google Cloud' },
+    { id: 4, logo: './images/shopify-bag.png', name: 'Shopify' },
+    { id: 5, logo: './images/salesforce-logo-png_seeklogo-256541.png', name: 'Salesforce' },
+    { id: 6, logo: './images/Screenshot from 2025-06-16 12-28-47.png', name: 'Partner' },
   ];
 
   const containerRef = useRef(null);

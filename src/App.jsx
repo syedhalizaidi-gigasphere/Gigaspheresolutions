@@ -9,7 +9,7 @@ import ContactForm from './pages/contactus';
 const App = () => {
   return (
     <Routes>
-      <Route path="/contact" element={<ContactForm />} />
+      <Route path="/contact-us" element={<ContactForm />} />
       <Route path="/" element={<Homepage />} />
     </Routes>
   );

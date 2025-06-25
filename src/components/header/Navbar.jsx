@@ -39,12 +39,14 @@ const Navbar = () => {
                        style={{ backgroundColor: scrolled ? 'white' : '#D3D3D3' }}>
  
             <div className="flex items-center">
+                <a href="/Gigaspheresolutions/">
                 <img 
-                    src="public/images/f1f37ef9-347e-4abb-80fd-efc52542a328.jpg"  
+                    src="./images/f1f37ef9-347e-4abb-80fd-efc52542a328.jpg"
                     alt="GigaSphere Logo"
                   
                     className="h-17 w-auto object-contain rounded-full shadow-md border border-gray-300" 
                 />
+                </a>
             </div>
 
         
@@ -64,7 +66,7 @@ const Navbar = () => {
  
             <div className="space-x-4 hidden md:flex">
                 <a
-                    href="/"
+                    href="/Gigaspheresolutions/"
                    
                     className={`relative group block py-2 px-4 text-black /* Text color is always black */
                                transition-colors duration-300 overflow-hidden`}
@@ -75,7 +77,7 @@ const Navbar = () => {
                 </a>
                 
                 <Link
-                    to="/contact"
+                    to="/contact-us"
                     className={`relative group block py-2 px-4 text-black /* Text color is always black */
                                transition-colors duration-300 overflow-hidden`}
                 >
@@ -87,29 +89,15 @@ const Navbar = () => {
       
             {isMenuOpen && (
                 <div className="md:hidden absolute top-full left-0 w-100 bg-white shadow-lg py-4 flex flex-col items-center space-y-4">
-                    <a
-                        href="/"
+                    <Link
+                        to="/Gigaspheresolutions/"
                         onClick={() => setIsMenuOpen(false)}  
                         className="w-full text-center px-4 py-2 text-black hover:bg-gray-100 transition-colors duration-300"
                     >
                         Home
-                    </a>
-                    <a
-                        href="#about-us"
-                        onClick={() => setIsMenuOpen(false)}  
-                        className="w-full text-center px-4 py-2 text-black hover:bg-gray-100 transition-colors duration-300"
-                    >
-                        About Us
-                    </a>
-                    <a
-                        href="#services"
-                        onClick={() => setIsMenuOpen(false)}  
-                        className="w-full text-center px-4 py-2 text-black hover:bg-gray-100 transition-colors duration-300"
-                    >
-                        Our Services
-                    </a>
+                    </Link>
                     <Link
-                        to="/contact"
+                        to="/contact-us"
                         onClick={() => setIsMenuOpen(false)}  
                         className="w-full text-center px-4 py-2 text-black hover:bg-gray-100 transition-colors duration-300"
                     >

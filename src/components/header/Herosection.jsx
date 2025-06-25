@@ -8,7 +8,7 @@ const HeroSection = () => {
     <div className="relative min-h-screen flex items-center justify-start p-4 overflow-hidden">
        
       <img
-        src="public/images/Pasted image.png" 
+        src="./images/Pasted image.png"
         alt="GigaSphere Solutions"
         className="absolute inset-0 w-full h-full object-cover object-top z-10 "
       />
@@ -24,7 +24,7 @@ const HeroSection = () => {
             Get up and running quickly with our expert consulting services.
           </p>
           <Link
-            to="/contact"
+            to="/contact-us"
             className="inline-block bg-white text-black px-5 py-2 rounded-lg font-medium transition duration-300 hover:bg-gray-200" // Slightly smaller padding
           >
             Contact Us

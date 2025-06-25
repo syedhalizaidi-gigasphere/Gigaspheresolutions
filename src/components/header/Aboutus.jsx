@@ -13,7 +13,7 @@ const AboutUs = ({ id }) => {
      
           <div className="w-full md:w-1/2">
             <img 
-              src="public/images/office.png"  
+              src="./images/office.png"
               alt="GigaSphere Solutions Team"
               className="rounded-lg shadow-md w-full h-auto"
             />
