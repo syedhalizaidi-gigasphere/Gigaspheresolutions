@@ -34,8 +34,8 @@ const DATA_SERVICES = [
     )
   },
   {
-    title: 'Unified Analytics with Databricks​',
-    description: 'Design and implement scalable data solutions using the Databricks Lakehouse Platform, combining data engineering, real-time analytics, and machine learning on a unified architecture.​',
+    title: 'Unified Analytics with Trending Platforms​',
+    description: 'Design and implement scalable data solutions using modern lakehouse platforms, integrating data engineering, real-time analytics, and machine learning within a unified architecture.',
     features: [
       'Interactive dashboards',
       'KPI tracking',

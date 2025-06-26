@@ -41,7 +41,7 @@ const Navbar = () => {
             <div className="flex items-center">
                 <a href="/Gigaspheresolutions/">
                 <img 
-                    src="./images/f1f37ef9-347e-4abb-80fd-efc52542a328.jpg"
+                    src="./images/gidaspherelogo.jpeg"
                     alt="GigaSphere Logo"
                   
                     className="h-17 w-auto object-contain rounded-full shadow-md border border-gray-300" 

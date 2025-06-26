@@ -31,7 +31,7 @@ const Footer = () => {
   <ul className="space-y-2">
     <li>
       <a href="mailto:info@gigaspher.com" className="hover:text-gray-600 transition">
-        info@gigasphere.com
+        contact@gigaspheresolutions.com
       </a>
     </li>
   </ul>
