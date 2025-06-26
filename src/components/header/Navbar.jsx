@@ -90,7 +90,7 @@ const Navbar = () => {
             {isMenuOpen && (
                 <div className="md:hidden absolute top-full left-0 w-100 bg-white shadow-lg py-4 flex flex-col items-center space-y-4">
                     <Link
-                        to="/Gigaspheresolutions/"
+                        to="/"
                         onClick={() => setIsMenuOpen(false)}  
                         className="w-full text-center px-4 py-2 text-black hover:bg-gray-100 transition-colors duration-300"
                     >
