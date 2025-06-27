@@ -41,10 +41,10 @@ const Navbar = () => {
             <div className="flex items-center">
                 <a href="/Gigaspheresolutions/">
                 <img 
-                    src="./images/gidaspherelogo.jpeg"
+                    src="./images/gigabg-removebg-preview.png"
                     alt="GigaSphere Logo"
                   
-                    className="h-17 w-auto object-contain rounded-full shadow-md border border-gray-300" 
+                    className="h-17 w-auto object-contain " 
                 />
                 </a>
             </div>
