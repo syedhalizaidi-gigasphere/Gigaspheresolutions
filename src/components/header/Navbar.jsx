@@ -39,7 +39,7 @@ const Navbar = () => {
                        style={{ backgroundColor: scrolled ? 'white' : '#D3D3D3' }}>
  
             <div className="flex items-center">
-                <a href="/Gigaspheresolutions/">
+                <a href="/">
                 <img 
                     src="./images/gigabg-removebg-preview.png"
                     alt="GigaSphere Logo"
@@ -66,7 +66,7 @@ const Navbar = () => {
  
             <div className="space-x-4 hidden md:flex">
                 <a
-                    href="/Gigaspheresolutions/"
+                    href="/"
                    
                     className={`relative group block py-2 px-4 text-black /* Text color is always black */
                                transition-colors duration-300 overflow-hidden`}

@@ -1,5 +1,4 @@
 {
-  "homepage": "https://www.gigaspheresolutions.com/",
   "name": "Gigaspheresolutions",
   "private": true,
   "version": "0.0.0",
@@ -7,9 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
+    "postbuild": "echo 'www.gigaspheresolutions.com' > dist/CNAME",
+    "predeploy": "npm run build && npm run postbuild",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
